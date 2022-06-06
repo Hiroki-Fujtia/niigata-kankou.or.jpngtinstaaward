@@ -1,0 +1,277 @@
+/*==============================================*/
+/*共通*/
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.prize-top,
+.provision-area,
+.footer-area img,
+.information-area {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 30px;
+}
+
+.btn-link,
+.link-img {
+    transition: all 0.3s;
+}
+
+.btn-link:hover,
+.link-img:hover {
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+/*==============================================*/
+/*FV*/
+
+.fv img {
+    width: 100%;
+}
+
+main {
+    background-image: url(/image/back-img.png);
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1080px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-content {
+    text-align: center;
+}
+
+.main-copy {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 1.5rem;
+}
+
+
+
+
+.main-copy img {
+    width: 80%;
+}
+
+.guide-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.guide-area img {
+    max-width: 51%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guide-item {
+    margin-bottom: 15px;
+}
+
+.line-area img {
+    max-width: 1080px;
+}
+
+
+.line-area {
+    margin-top: 65px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+
+/*==============================================*/
+/*application section*/
+
+
+.application-top {
+    max-width: 417px;
+    height: auto;
+}
+
+.terms-area {
+    position: relative;
+    top: -70px;
+}
+
+
+
+.terms-item img {
+    z-index: 3 !important;
+}
+
+.terms-btn {
+    max-width: 374px;
+    height: auto;
+    position: relative;
+    top: -50px;
+    position: relative;
+    left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+/*==============================================*/
+/*prize*/
+.prize-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.prize-top {
+    max-width: 417px;
+    height: auto;
+}
+
+.prize-items img {
+    width: 32%;
+}
+
+
+
+.prize-items img {
+    margin: 0 5px;
+}
+
+.provision-area {
+    width: 85%;
+}
+
+/*==============================================*/
+/*footer*/
+
+.footer-logo {
+    padding-bottom: 30px;
+}
+
+.footer-logo img {
+    width: 15%;
+}
+
+.information-area {
+    width: 70%;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.information-area img {
+    margin-bottom: 15px;
+}
+.contact-img {
+    width: 21%;
+}
+
+.link-img {
+    width: 25%;
+}
+
+/*==============================================*/
+/*1024px以下*/
+
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .line-area img {
+        width: 80%;
+    }
+
+    .application-item {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .application-top {
+        max-width: 36.3%;
+        height: auto;
+    }
+
+    .terms-area {
+        text-align: center;
+        top: -50px;
+    }
+
+    .terms-area img {
+        width: 80%;
+    }
+
+    .terms-btn {
+        width: 26%;
+        margin-left: 8%;
+    }
+
+    .prize-top {
+        max-width: 29%;
+        height: auto;
+    }
+
+    .prize-items img {
+        width: 30%;
+    }
+    .information-area img {
+        margin-bottom: 5px;
+    }
+    .tel-img {
+        padding-bottom: 15px;
+    }
+    .footer-logo {
+        padding-bottom: 0;
+    }
+}
+
+/*==============================================*/
+/*499px以下*/
+
+@media (max-width:499px) {
+    .main-copy {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .guide-item {
+        margin-bottom: 5px;
+
+    }
+
+    .line-area {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .terms-area {
+        top: -10px;
+    }
+
+    .terms-btn {
+        top: -10px;
+    }
+
+    .prize-items img {
+        width: 28%;
+    }
+    .information-area img {
+        margin-bottom: 0px;
+    }
+
+}
